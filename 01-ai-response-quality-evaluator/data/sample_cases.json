@@ -1,0 +1,20 @@
+[
+  {
+    "id":"case-001",
+    "prompt":"A customer asks for a concise explanation of compound interest.",
+    "response_a":"Compound interest means you earn interest on both your original principal and previously accumulated interest.",
+    "response_b":"Compound interest is only calculated on the initial amount and never on past interest.",
+    "scores_a":{"correctness":5,"relevance":5,"completeness":4,"clarity":5,"safety":5},
+    "scores_b":{"correctness":1,"relevance":4,"completeness":2,"clarity":4,"safety":5},
+    "critical_error_b":"Incorrect definition of compound interest."
+  },
+  {
+    "id":"case-002",
+    "prompt":"Summarize why duplicate rows are a data-quality concern.",
+    "response_a":"Duplicates can bias counts, rates, aggregates, and model training by overweighting repeated observations.",
+    "response_b":"Duplicates generally do not matter because databases automatically ignore them.",
+    "scores_a":{"correctness":5,"relevance":5,"completeness":4,"clarity":5,"safety":5},
+    "scores_b":{"correctness":1,"relevance":3,"completeness":1,"clarity":4,"safety":5},
+    "critical_error_b":"False claim that databases automatically ignore duplicates."
+  }
+]
