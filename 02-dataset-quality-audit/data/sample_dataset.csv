@@ -1,0 +1,8 @@
+record_id,country,revenue_usd,employees
+1,Peru,125000,18
+2,Chile,148000,20
+3,Peru,,19
+4,Colombia,151000,21
+4,Colombia,151000,21
+5,Peru,not_available,20
+6,Chile,950000,22
